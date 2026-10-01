@@ -1,0 +1,25 @@
+:root { font-size: 18px; font-family: system-ui, sans-serif; color: #1a1a2e; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #f4f5f9; }
+h1 { font-size: 2.2rem; margin: 0 0 .5rem; } h2 { font-size: 1.6rem; margin: 0 0 1rem; }
+input, select, button { font: inherit; padding: .7rem 1rem; border-radius: 8px; border: 1px solid #999; width: 100%; }
+label { display: block; margin-bottom: 1rem; font-weight: 600; }
+label input, label select { margin-top: .3rem; font-weight: 400; }
+button, .btn { background: #0b2545; color: #fff; border: 0; cursor: pointer; font-weight: 600; text-decoration: none; display: inline-block; text-align: center; padding: .7rem 1rem; border-radius: 8px; }
+.auth { display: flex; min-height: 100vh; }
+.auth aside { flex: 1; background: #d9d9d9; display: flex; align-items: center; padding: 3rem; font-size: 2.2rem; }
+.auth section { flex: 1; padding: 3rem 5rem; align-self: center; }
+nav { display: flex; gap: 1.5rem; align-items: center; background: #0b2545; padding: 1rem 2rem; }
+nav a { color: #fff; text-decoration: none; font-weight: 600; } nav b { color: #c9a227; margin-right: auto; font-size: 1.2rem; }
+nav .sos { background: #c62828; padding: .4rem 1rem; border-radius: 8px; }
+main { max-width: 1000px; margin: 2rem auto; padding: 0 1.5rem; }
+.filtros { display: flex; gap: 1rem; align-items: end; margin-bottom: 1.5rem; } .filtros label { flex: 1; margin: 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.2rem; }
+.card { background: #fff; border-radius: 14px; padding: 1.2rem; box-shadow: 0 1px 4px #0002; display: flex; flex-direction: column; gap: .4rem; }
+.card .emoji { font-size: 3.5rem; } .precio { font-size: 1.4rem; font-weight: 700; }
+.tag { background: #c9a227; color: #000; border-radius: 6px; padding: 0 .5rem; font-size: .8rem; width: fit-content; }
+.panel { background: #fff; border-radius: 14px; padding: 1.5rem; max-width: 560px; }
+.fila { display: flex; justify-content: space-between; padding: .5rem 0; border-bottom: 1px solid #ddd; }
+.total { font-size: 1.5rem; font-weight: 700; color: #0b2545; }
+.ok { color: #2e7d32; font-weight: 600; }
+.sosbtn { background: #c62828; font-size: 2rem; padding: 2rem; width: 100%; }
